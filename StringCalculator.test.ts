@@ -91,7 +91,7 @@ describe("Negatives tests", () => {
     it("simple delimiter multiple negatives", () => {
         expect(() => {
             calculator.add("1\n3\n-5\n1\n-1");
-        }).toThrow("negative not allowed: -5, -1");
+        }).toThrow("negative not sallowed: -5, -1");
     });
 
 });
